@@ -1,0 +1,28 @@
+{
+    "name": "webpack-typescript-boilerplate",
+    "version": "0.0.1",
+    "description": "A boilerplate for webapps using webpack and typescript",
+    "main": "index.js",
+    "scripts": {
+        "postinstall": "typings install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stewil/webpack-typescript-boilerplate.git"
+    },
+    "keywords": [
+        "webpack",
+        "typescript",
+        "javascript"
+    ],
+    "author": "Steve Wilcox",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/stewil/webpack-typescript-boilerplate/issues"
+    },
+    "homepage": "https://github.com/stewil/webpack-typescript-boilerplate#readme",
+    "devDependencies": {
+        "typescript": "~2.1.4",
+        "typings": "~2.0.0"
+    }
+}
